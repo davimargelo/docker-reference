@@ -1,0 +1,5 @@
+<p>Hello from python</p>
+
+<!-- winpty docker image build -t ex-build-dev . -->
+<!-- winpty docker container run -it -v /$PWD:/app -p 80:8000 --name python-server ex-build-dev -->
+<!-- winpty docker container run -it --volumes-from python-server debian cat /log/http-server.log -->
